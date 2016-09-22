@@ -1,13 +1,106 @@
 <!Doctype =html>
+
+
 <html>
+   <!-- I pulled the following code (CSS style and one of the list options) from http://www.w3schools.com/css/css_dropdowns.asp
+
+        (The CSS style stuff is confusing to me in how the drop down is formatted, but I think I understand how each individual part of it works)
+
+        (This code snippet is controlling the dropdown feature of my nav bar. On a color website I was given a list of 3 complimentary colors for the color I chose, so I used that as the nav bar background and then the highlight color.)
+        
+        (I chose to base my nav bar off the drop down demo because it seemed like the most logical way to view my assignments list without having to click on a separate assignments page. )
+        
+        (I tried out a list format, a scrolling one, but the simple horizontal navbar seemed to be the most functional. )
+        
+        (I wanted to possibly do a more complex interesting one like the in class example, but it was more important to me that I understood each element)
+  -->
+          
   <head>
-      <h1> Index</h1>
+      <h1> Alyssa's 300 Landing Page</h1>
+      <style>
+          
+                    
+       
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #20ffe4;
+   
+}
+
+li {
+    float: left;
+      color: black;
+   
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+      color: black;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #ffcdd3;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}     
+         
+          p{
+              font-family: sans-serif;
+              color: darkorchid
+                      margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ecffcd;
+          }
+      </style>
   </head>
    <body>
-    <ul style="list-style-type:circle">
+    <ul style="list-style-type:none">
         <li> <a href="./iml300/about.html">About</a></li>
         <li> <a href="./iml300/links.html">Links</a> </li>
-        <li> <a href="./iml300/assignments/index.html">Assignments</a></li>
+          <li class="dropdown">
+
+    <a href="./iml300/assignments/index.html" class="dropbtn">Assignments</a>
+    <div class="dropdown-content">
+      <a href="./iml300/assignments/week2.html">The Good, The Bad, and The Ugly</a>
+        <a href="./iml300/assignments/constitution.html">Constitution</a>
+    </div>
+  </li>
     </ul>
+    
+       <div style="width:300px;height:400px;border:1px solid #cdfff9; margin: auto;margin-top: 25px; background-color: #cdfff9;"></div>
+       
+    <p> I chose #cdfff9 as my signature color because it is my favorite color. For a while I was convinced that purple was my favorite color, but then I slowly realized that everything I owned was turquoise and came to terms with the truth. </p>
     </body>
 </html>
