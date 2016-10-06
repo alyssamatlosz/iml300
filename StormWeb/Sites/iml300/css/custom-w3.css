@@ -1,0 +1,107 @@
+.size {
+    width: 20%;
+    height: 20vw;
+    position: relative;
+    margin-right: 50px;
+    margin-top: 15px;
+}
+.title {
+    width: auto;
+    height: 70px;
+    margin: 100;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: #ffcdd3;
+    padding-left: 10px;
+    border: solid white;
+    text-align: center;
+}
+body {
+    background-image: url("https://66.media.tumblr.com/50c84f73291438682332509eeda5d2a8/tumblr_oem7j3tL9R1s0lwz8o1_1280.gif");
+    /* this is a tumblr link, but it is an image I made in illustrator, but the local file linking was not working */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.my-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #cdfff9;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif
+}
+.white-li {
+    border: solid white;
+}
+.my-li {
+    float: left;
+    color: black;
+}
+
+/* help with z-index taken from http://stackoverflow.com/questions/18772724/css-dropdown-menu-gets-hidden-behind-the-content
+*/
+
+li a,
+.dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+    z-index: 9999;
+}
+li a:hover,
+.dropdown:hover .dropbtn {
+    background-color: #ecffcd;
+    z-index: 9999;
+}
+li.dropdown {
+    display: inline-block;
+    z-index: 9999;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    z-index: 9999;
+}
+.dropdown-content a:hover {
+    background-color: #ecffcd
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+h1 {
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+    font-size: 40px;
+    margin: auto;
+    margin-bottom: 15px;
+    text-align: center;
+}
+p {
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
+h2,
+h3,
+h4 {
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-weight: bold;
+}
+.color-box {
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    color: darkorchid margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ecffcd;
+}

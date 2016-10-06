@@ -7,41 +7,48 @@ DO NOT CHANGE the class names
 
 */
 
-.article {
-   
-}
-
-.section {
-    margin: 25px;
-    background: #cdfff9;
-    padding: 15px;
-    border: 10px solid #e3cdff; 
-}
-
-.amendment {
-     background:#e9ffcd;
-    width: 400px;
-    margin: auto;
-    padding: 15px;
-    border: 15px solid #ffcdd0;
-    font-family: Verdana;
+.title {
+    width: auto;
+    height: 70px;
+    margin: 100;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: #ffcdd3;
+    padding-left: 10px;
+    border: solid white;
     text-align: center;
-    
 }
-
-.emphasize {
-    
+.article {}
+.section {
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background: #cdfff9;
+    padding: 10px;
+    border: 5px solid #fff;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
 }
-
+.amendment {
+    background: #e9ffcd;
+    width: 75%;
+    margin: auto;
+    padding: 10px;
+    border: 7px solid #fff;
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+    text-align: center;
+}
+.emphasize {}
 .keywords {
     text-align: center;
     border: 5px solid black;
-    
 }
 
-
 /* --------------------------------------- */
+
+
 /*        DO NOT MODIFY BELOW HERE         */
+
+
 /* --------------------------------------- */
 
 footer {
@@ -51,47 +58,38 @@ footer {
     color: dimgrey;
     vertical-align: top
 }
-
 footer a {
-    text-decoration: none;    
-    font-size: 1em;    
+    text-decoration: none;
+    font-size: 1em;
 }
-
 footer a span {
-    background-color: orange;            
+    background-color: orange;
     font-size: 2em;
     vertical-align: text-bottom
 }
-
-
 footer a:hover {
     color: crimson;
 }
-
 nav {
     font-family: serif
 }
-
 nav:first-child {
     margin-left: 1em;
     float: left;
-    display: inline; 
+    display: inline;
     width: auto;
 }
-
 nav:last-child {
     margin-right: 1em;
     float: right;
 }
-
 #backButton:before {
-/*    content: "\25C0 ";*/
+    /*    content: "\25C0 ";*/
     content: "\2190 ";
     font-size: 3em;
 }
-
 #nextButton:after {
-/*    content: "\25B6 ";*/
+    /*    content: "\25B6 ";*/
     content: "\2192 ";
     font-size: 3em;
 }

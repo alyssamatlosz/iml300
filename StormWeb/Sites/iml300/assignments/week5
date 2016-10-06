@@ -5,14 +5,14 @@
 </head>
 <body>    
     <h1>Website Critique</h1>
-    <h2>Typography</h2>
+    <h2>Layout</h2>
     
     <!--  =-=-=-=-=-=-=-=-=-=-=-= -->
-    <!--  Good Typography Example -->
+    <!--  Good Layout Example -->
     <!--  =-=-=-=-=-=-=-=-=-=-=-= -->
     
     <div>
-        <h3>1. Good Typography</h3>        
+        <h3>1. Good Layout</h3>        
         <a href="http://URL of Example">
             <img src="put the path to your image here" alt="good typography">
         </a>
@@ -21,9 +21,9 @@
         </p>
     </div>
 
-   <!-- make image 800x600 -->
+    
     <!--  =-=-=-=-=-=-=-=-=-=-=-= -->
-    <!--  Bad Typography Example -->
+    <!--  Bad Layout Example -->
     <!--  =-=-=-=-=-=-=-=-=-=-=-= -->
     
     <div>

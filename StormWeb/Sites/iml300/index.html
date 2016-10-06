@@ -1,0 +1,81 @@
+<!Doctype =html>
+
+
+<html>
+<title> Alyssa Matlosz 300 Landing Page</title>
+<!-- I pulled the following code (CSS style and one of the list options) from http://www.w3schools.com/css/css_dropdowns.asp
+
+            (The CSS style stuff is confusing to me in how the drop down is formatted, but I think I understand how each individual part of it works)
+
+            (This code snippet is controlling the dropdown feature of my nav bar. On a color website I was given a list of 3 complimentary colors for the color I chose, so I used that as the nav bar background and then the highlight color.)
+
+            (I chose to base my nav bar off the drop down demo because it seemed like the most logical way to view my assignments list without having to click on a separate assignments page. )
+
+            (I tried out a list format, a scrolling one, but the simple horizontal navbar seemed to be the most functional. )
+
+            (I wanted to possibly do a more complex interesting one like the in class example, but it was more important to me that I understood each element)
+      -->
+
+<head>
+    <meta charset="UTF-8">
+    <div class="title">
+        <h1 class="w3-center"> Alyssa's 300 Landing Page</h1>
+    </div>
+
+    <div style="width:auto ;height:35px; margin: 10px; margin-top: 0px;background-color: #ecffcd; padding-left: 10px; border: solid white">
+        <h2 class="w3-center " style="font-size: 22px; margin-top: -1px;"> IML 300: Reading and Writing the Web </h2>
+    </div>
+    <style>
+
+
+    </style>
+
+    <link rel="stylesheet" href="css/w3.css">
+    <link rel="stylesheet" href="css/custom-w3.css">
+
+</head>
+
+<body>
+
+
+    <ul class="my-ul" style="list-style-type:none">
+        <li class="my-li"> <a href="index.html">Home</a></li>
+        <li class="my-li"> <a href="about.html">About</a></li>
+        <li class="my-li"> <a href="links.html">Links</a> </li>
+        <li class="dropdown">
+
+            <a href="assignments/index.html" class="dropbtn">Assignments</a>
+            <div class="dropdown-content">
+                <a href="assignments/week2.html">The Good, The Bad, and The Ugly</a>
+                <a href="assignments/constitution.html">Constitution</a>
+                <a href="assignments/week5.html"> The Good, The Bad, The Ugly - Layout Edition</a>
+                <a href="assignments/flowchart.html"> Flowchart</a>
+            </div>
+        </li>
+    </ul>
+
+
+    <!--   
+            A note about the photos shown: they were originally on my about page for things I like. When I took them out for aesthetic formatting reasons, I missed them and put them on the home page instead. 
+   -->
+
+    <p class="w3-center" style="margin:auto; margin-top: 25px">
+        <img class="size" style="border: solid white" src="http://i.imgur.com/i2bSy6K.jpg" alt="dogs">
+        <img class="size" style="border: solid white" src="http://i.ebayimg.com/00/s/MTI1MFgxMjUw/z/H1sAAOxyNThTdo2t/$_1.JPG?set_id=2" alt="stuffed animals">
+        <img class="size" style="border: solid white" src="https://is5-ssl.mzstatic.com/image/thumb/Music1/v4/a3/ba/4b/a3ba4bd4-3934-bb69-569e-3abd5e32ff7f/source/600x600bb.jpg" alt="hamilton">
+        <img class="size" style="border: solid white" src="https://s-media-cache-ak0.pinimg.com/736x/af/e7/0d/afe70deda532a34d5b01e18b2cacb015.jpg" alt="watercolor flowers">
+
+    </p>
+
+
+
+    <p class="color-box w3-bottom" style="padding:5px;  margin-top: 25px; border: solid white">
+
+        A note about my midterm submission: after building up from scratch and then trying to convert to a template, I found that the template resulted in my site losing a lot of functionality and layout that took a long time to get right. I finished producing my templated version, but I like this one better. Screenshots of the template version can be found in my storm folder at iml300/images/TEMPLATE. <a href="http://www.w3schools.com/w3css/tryw3css_templates_website.htm">Here</a> is the original template. The things I changed are: font, nav bar color, hover color, footer content. I also scaled it back a good amount.
+
+    </p>
+
+
+</body>
+
+</html>
